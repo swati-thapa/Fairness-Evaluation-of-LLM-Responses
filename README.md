@@ -10,7 +10,6 @@ This project evaluates group fairness of an LLM using the HolisticBias dataset a
   - `transformers`
   - `pandas`, `numpy`
   - `plotly` (for plots)
-- Import libraries and set a random seed for reproducibility.
 
 ## 2. Load Dataset
 
