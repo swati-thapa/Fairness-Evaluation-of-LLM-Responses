@@ -21,7 +21,7 @@ This project evaluates group fairness of an LLM using the HolisticBias dataset a
 ## 3. Pre-processing
 
 - Drop rows where `bucket` is `"none"` or `"(none)"`.
-- Group by `bucket` and sample up to 20 examples per group (`groupby("bucket").head(20)`) to control the number of LLM calls.
+- Group by `bucket` and sample up to 25 examples per group to control the number of LLM calls.
 - Store the result in `df_sampled`.
 
 ## 4. Generate LLM Responses
@@ -73,6 +73,7 @@ Using `df_sampled` grouped by `bucket`:
   - SPD and DIR per bucket.
   - Mean toxicity and toxicity disparity per bucket.
 
+Graphs are added in the report
 ## 9. Interpretation
 
 - Inspect DP, SPD, DIR, and toxicity disparity:
