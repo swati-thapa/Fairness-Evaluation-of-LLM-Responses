@@ -1,6 +1,5 @@
 # Fairness-Evaluation-of-LLM-Responses
 
-# LLM Fairness Evaluation with HolisticBias
 
 This project evaluates group fairness of an LLM using the HolisticBias dataset and external sentiment/toxicity classifiers. We focus on gender & sex–related buckets and compute Demographic Parity, Statistical Parity Difference, Disparate Impact Ratio, and Toxicity Disparity.
 
